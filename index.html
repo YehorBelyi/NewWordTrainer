@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/image.ico">
+    <title>Перекладач</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="upper-menu">
+            <div class="upper-content">
+                <div class="logo">
+                    <img src="./images/image.ico" alt="">
+                </div>
+                <div class="change-level">
+                    <div class="change-state">
+                        <p>Змінити рівень</p>
+                    </div>
+                    <div class="change-button">
+                        <img src="./images/menu.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="burger-menu">
+            <div class="burger-info">
+                <p>Оберіть рівень складності</p>
+            </div>
+            <div class="burger-radio">
+                <div class="radio-item">
+                    <input type="radio" name="level" id="low" checked>
+                    <label for="low">Низький</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="level" id="middle">
+                    <label for="middle">Середній</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="level" id="high">
+                    <label for="high">Високий</label>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="word-card">
+                <p>Words to guess</p>
+            </div>
+            <div class="control-buttons">
+                <div class="arrow left">
+                    <img src="./images/arrow_back.png" alt="arrow_back">
+                </div>
+                <div class="word-count">
+                    <p>0/0</p>
+                </div>
+                <div class="arrow right">
+                    <img src="images/arrow_forward.png" alt="arrow_forward">
+                </div>
+            </div>
+            <div class="user-guess">
+                <input type="text" name="" id="" placeholder="Ваш переклад">
+            </div>
+            <hr>
+            <div class="user-info">
+                <div class="stats">
+                    <h2>Статистика</h2>
+                </div>
+                <div class="answers">
+                    <div class="right-answer">
+                        <p>Вірно</p>
+                        <p>0</p>
+                    </div>
+                    <div class="wrong-answer">
+                        <p>Невірно</p>
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
